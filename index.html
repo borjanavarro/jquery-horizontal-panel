@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery horizontal scroll panel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/flash-black.png"/>
+  </head>
+  <body>
+    <div class="main">
+      <div class="presenter">
+        <div class="logo">
+          <hr>
+          <h1 id="breaking">Breaking</h1>
+          <h1 id="news">News</h1>
+          <hr>
+        </div>
+        <div id="panel" class="container">
+          <div class="marquee">
+            <ul class="content">
+              <li><h1>Someone in the government has robbed us</h1><img src="img/flash-white.png"/></li>
+              <li><h1>A bunch of people has been brutally murdered</h1><img src="img/flash-white.png"/></li>
+              <li><h1>Someone has died and we hadn't realized how awesome he was</h1><img src="img/flash-white.png"/></li>
+              <li><h1>The supercomputer center has finally calculated the spanish debt</h1><img src="img/flash-white.png"/></li>
+              <li><h1>A cat has done something funny</h1><img src="img/flash-white.png"/></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <footer>
+      <h2>2016 · code & design by <a href="http://borjanavarro.me" target="_blank">Borja Navarro</a></h2>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/horizontal-panel.js"></script>
+    <script type="text/javascript">
+    $(window).load( function() {
+      $('#panel').hpanel({
+        duration: 120000
+      });
+    });
+    </script>
+  </body>
+</html>

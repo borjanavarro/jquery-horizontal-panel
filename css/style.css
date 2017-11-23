@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'Langdon';
+	src: url('../fonts/Langdon.otf');
+}
+
+@font-face {
+	font-family: 'Reckoner';
+	src: url('../fonts/Reckoner.ttf');
+}
+
+body{
+	background-image: url('img/background-gray.jpg');
+	background-size: cover;
+}
+
+.main{
+	margin: 50px;
+}
+
+.presenter{
+	position: relative;
+	background: url('../img/tv-news.jpg') no-repeat;
+	background-size: 1000px 562px;
+	width: 1000px;
+	height: 562px;
+	margin: 0 auto;
+}
+
+.logo{
+	background-image: url('../img/background-red.jpg');
+	background-size: 260px 215px;
+	text-align: center;
+	padding: 15px 10px 13px 10px;
+	border: 4px solid #3a3939;
+	float: left;
+	position: absolute;
+	left: 60px;
+	bottom: -23px;
+	z-index: 200;
+}
+
+.logo h1{
+	font-family: 'Langdon';
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+}
+
+.logo #breaking{
+	font-size: 1.5em;
+	margin-top: 10px;
+	letter-spacing: 5px;
+}
+
+.logo #news{
+	font-size: 3.2em;
+	letter-spacing: 5px;
+}
+
+.logo hr{
+	border: 3px solid white;
+	margin: 0;
+}
+
+.container{
+	width: 1000px;
+	overflow: hidden;
+	box-sizing: border-box;
+	height: 35px;
+	position: relative;
+	cursor: pointer;
+	margin: 0 auto;
+	background: black;
+}
+
+/* Not used in this example
+.fixed {
+	height:35px;
+	background-color: red;
+	width: 290px;
+	z-index: 100;
+	position: absolute;
+}
+*/
+
+#panel{
+	bottom: 25px;
+	position: absolute;
+}
+
+.marquee, *[class^="marquee"] {
+	white-space: nowrap;
+}
+
+.content {
+  margin: 0;
+}
+
+.content li {
+  color: #fff;
+	height: 35px;
+	position: absolute;
+	list-style-type: none;
+}
+
+.content h1{
+	color: white;
+	font-family: 'Reckoner';
+	letter-spacing: 9px;
+	font-size: 2em;
+	margin: 0 0 0 0;
+	display: inline;
+	vertical-align: bottom;
+}
+
+.content img{
+	width: 30px;
+	padding: 3px 40px 0 35px;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+footer h2{
+	text-align: center;
+	font-family: 'Langdon';
+	font-size: 1em;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+footer h2 a{
+	text-decoration: none;
+	color: #b70000;
+	font-size: 1.5em;
+}
+
+footer h2 a:hover{
+	color: #b55353;
+}
