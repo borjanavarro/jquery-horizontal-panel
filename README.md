@@ -1,4 +1,4 @@
-# horizontal-panel
+# jquery-horizontal-panel
 An horizontal scroll plugin for displaying messages as a LED panel or similar.
 
 <h2>Default settings</h2>
